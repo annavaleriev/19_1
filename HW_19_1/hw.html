@@ -317,14 +317,14 @@
                             <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseExample2" aria-expanded="false"
                                     aria-controls="collapseExample">
-                                Как купить?
+                                Как доставить?
                             </button>
                         </div>
                         <div class="col d-grid">
                             <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseExample3" aria-expanded="false"
                                     aria-controls="collapseExample">
-                                Как купить?
+                                Какая гарантия?
                             </button>
                         </div>
                     </div>
@@ -332,21 +332,21 @@
                         <div class="col d-grid">
                             <div class="collapse" id="collapseExample1">
                                 <div class="card card-body">
-                                    Заработай и купи
+                                    Через интернет
                                 </div>
                             </div>
                         </div>
                         <div class="col d-grid">
                             <div class="collapse" id="collapseExample2">
                                 <div class="card card-body">
-                                    Заработай и купи
+                                    Эльфы привезут с 9-21
                                 </div>
                             </div>
                         </div>
                         <div class="col d-grid">
                             <div class="collapse" id="collapseExample3">
                                 <div class="card card-body">
-                                    Заработай и купи
+                                    Гарантии нет
                                 </div>
                             </div>
                         </div>
@@ -358,29 +358,46 @@
                     <table class="table">
                         <thead>
                         <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col">номер</th>
+                            <th scope="col">название товара</th>
+                            <th scope="col">цена за штуку</th>
+                            <th scope="col">количество</th>
+                            <th scope="col">итоговая сумма</th>
+                            <th scope="col">статус заказа</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
+                            <td>шкаф</td>
+                            <td>20000</td>
+                            <td>2</td>
+                            <td>40000</td>
+                            <td style="background-color: blue;">отмена</td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
+                            <td>стол</td>
+                            <td>5000</td>
+                            <td>3</td>
+                            <td>15000</td>
+                            <td style="background-color: yellow;">обработка</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
+                            <td>стул</td>
+                            <td>2000</td>
+                            <td>5</td>
+                            <td>10000</td>
+                            <td style="background-color: green;">обработан</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>кресло</td>
+                            <td>3000</td>
+                            <td>1</td>
+                            <td>3000</td>
+                            <td style="background-color: red;">отмена</td>
                         </tr>
                         </tbody>
                     </table>
@@ -389,7 +406,6 @@
         </main>
 
     </div>
-
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
