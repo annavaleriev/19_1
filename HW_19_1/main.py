@@ -15,7 +15,7 @@ class MyServer(BaseHTTPRequestHandler):
     def __get_htmal_content(self):
         """ Метод для получения содержимого html-файла"""
 
-        with open("hw.html") as file:
+        with open("index.html") as file:
             return file.read()
 
     def do_GET(self):
